@@ -1,1 +1,9 @@
+Linked List
 
+# 这里展示了一种基础的linked形式，中间包括两个部分，一个是node之中是一个int，初始为0，每个node中间的连接线为用next来表示，null则是None
+
+class ListNode(object):
+
+    def __init__(self, val=0):
+        self.val = val
+        self.next = None
