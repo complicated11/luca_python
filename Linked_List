@@ -45,7 +45,7 @@ class Solution(object):
     def remove(self, head: ListNode, target: int) -> ListNode:
         """
         """
-        dummy = ListNode(val=0)  # 对于dummy这里
+        dummy = ListNode(val=0)  # dummy这里作为一个虚拟的节点，防止对于头节点的问题
         dummy.next = head
         cur = dummy
         
